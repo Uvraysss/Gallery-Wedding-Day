@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Family</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Taviraj:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Mitr:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body data-page="family">
+
+    <div class="ambient-heart" id="ambientHeart"></div>
+
+    <nav class="navbar">
+        <a class="navlink" data-page="cover" href="index.html">Home</a>
+        <a class="navlink" data-page="gallery" href="gallery.html">Gallery</a>
+        <a class="navlink" data-page="story" href="story.html">Story</a>
+        <a class="navlink" data-page="family" href="family.html">Family</a>
+        <a class="navlink" data-page="wishes" href="wishes.html">Wishes</a>
+    </nav>
+    
+    <section class="page" id="page-family">
+        <div class="section-head">
+            <div class="section-eyebrow">Our Family</div>
+            <div class="section-title">แตะหัวใจให้ครบ เพื่อเปิดภาพครอบครัว</div>
+            <p class="section-sub">กดค้าง ๆ ย้ำ ๆ ด้วยความรัก แล้วดูว่าจะเกิดอะไรขึ้น!</p>
+        </div>
+
+        <div class="heart-wrap">
+            <button class="heart-btn" id="heartBtn" aria-label="แตะหัวใจ">
+            <svg viewBox="0 0 100 100">
+                <defs>
+                    <clipPath id="heartClip">
+                        <path d="M50 88 C 15 65, 0 42, 0 25 C 0 8, 14 -2, 28 4 C 38 8, 47 18, 50 26 C 53 18, 62 8, 72 4 C 86 -2, 100 8, 100 25 C 100 42, 85 65, 50 88 Z"/>
+                    </clipPath>
+                </defs>
+                <path d="M50 88 C 15 65, 0 42, 0 25 C 0 8, 14 -2, 28 4 C 38 8, 47 18, 50 26 C 53 18, 62 8, 72 4 C 86 -2, 100 8, 100 25 C 100 42, 85 65, 50 88 Z"
+                fill="#FCE3D2" stroke="#B5495B" stroke-width="2"/>
+                <rect id="heartFill" x="0" y="100" width="100" height="0" fill="#B5495B" clip-path="url(#heartClip)"/>
+            </svg>
+            </button>
+        <div class="heart-progress-label" id="heartLabel">0 / 27</div>
+        <div class="heart-hint" id="heartHint">แตะหัวใจครบ 27 ครั้ง เท่ากับ 27 ปีของเรา</div>
+        </div>
+
+        <div class="family-reveal" id="familyReveal">
+            
+            <div class="family-frame">
+                <div class="family-caption">ครอบครัวของเรา</div>
+                <div class="family-photo">
+                    <img src="/photo/Family12.jpg">
+                    <img src="/photo/Family9.jpg">
+                    <img src="/photo/Family11.jpg">
+                    <img src="/photo/Family7.jpg">
+                    <img src="/photo/Family13.jpg">
+                    <img src="/photo/Family5.jpg">
+                    <img src="/photo/Family6.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container wish-button" id="wishButton">
+        <a class="cta-2" href="/html/wishes.html">คำอวยพรถึงป๊ากับแม่ →</a>
+    </div>
+
+    <div class="bottom-nav">
+        <a data-page="cover" href="index.html"></a>
+        <a data-page="story" href="story.html"></a>
+        <a data-page="gallery" href="gallery.html"></a>
+        <a data-page="family" href="family.html"></a>
+        <a data-page="wishes" href="wishes.html"></a>
+    </div>
+ 
+    <script src="/script/script.js"></script>
+
+</body>
+</html>

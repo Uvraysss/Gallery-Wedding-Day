@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Taviraj:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Mitr:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body data-page="wishes">
+    <div class="ambient-heart" id="ambientHeart"></div>
+
+    <nav class="navbar">
+        <a class="navlink" data-page="cover" href="index.html">Home</a>
+        <a class="navlink" data-page="gallery" href="gallery.html">Gallery</a>
+        <a class="navlink" data-page="story" href="story.html">Story</a>
+        <a class="navlink" data-page="family" href="family.html">Family</a>
+        <a class="navlink" data-page="wishes" href="wishes.html">Wishes</a>
+    </nav>
+
+    <section class="page" id="page-wishes">
+    <div class="section-head">
+        <div class="section-eyebrow">With Love</div>
+        <div class="section-title">คำอวยพรถึงป๊ากับแม่</div>
+        <p class="section-sub">27 ปีที่ผ่านมา คือของขวัญที่ยิ่งใหญ่ที่สุดของพวกเรา</p>
+    </div>
+
+    <div class="guestbook">
+
+        <input
+            type="text"
+            id="guestName"
+            class="guestbook-input"
+            placeholder="Name"
+        >
+
+        <textarea
+            id="guestMessage"
+            class="guestbook-textarea"
+            placeholder="เขียนคำอวยพรถึงป๊ากับแม่..."
+        ></textarea>
+
+        <button
+            id="submitWish"
+            class="cta"
+            style="margin-top:0;"
+        >
+            ฝากคำอวยพร 💌
+        </button>
+    </div>
+
+    <div id="wishGrid" class="wish-grid"></div>
+
+    <div class="wish-grid">
+        <div class="wish-card">
+            <div class="wish-quote"></div>
+            <div class="wish-text">💌 สุขสันต์วันครบรอบแต่งงาน 27 ปี 🎉
+            ขอบคุณป๊ากับแม่ที่รักกัน และคอยดูแลรักษาความสัมพันธ์ของกันและกันมาตลอด จนมีพี่ยินและหนูได้เกิดมาเป็นส่วนหนึ่ง
+            ขอบคุณป๊ากับแม่ที่ช่วยกันสร้างครอบครัว คอยดูแลและให้สิ่งที่ดีที่สุดกับหนูและพี่ยินเสมอ ทั้งการได้อยู่อย่างสบาย ได้รับการศึกษาที่ดี มีชีวิตที่ดี และมีโอกาสได้พบเจอแต่สิ่งดี ๆ ในชีวิต ทำให้รู้สึกโชคดีมาก ๆ ที่ได้เกิดมาเป็นลูกของครอบครัวนี้
+            สุดท้ายนี้ หนูขอให้ป๊ากับแม่ยังรักกัน อยู่ข้าง ๆ กันแบบนี้ในทุก ๆ วัน ขอให้มีความสุขด้วยกันไปนาน ๆ สุขภาพแข็งแรง และจับมือกันผ่านทุกช่วงเวลาของชีวิตไปด้วยกันแบบนี้ตลอดไป ✨</div>
+        </div>
+    </div>
+    
+    <div class="closing">
+        <p>27 ปี ไม่ใช่แค่ตัวเลข แต่คือทุกเช้าที่ตื่นมาเจอกัน ทุกมื้ออาหารที่กินด้วยกัน<br>และทุกช่วงเวลายากลำบากที่ผ่านมาได้เพราะมีกันและกัน<br>ขอให้ปีที่ 28, 29, 30... ยังคงเหมือนวันแรกเสมอ</p>
+        <div class="signoff">Happy 27th Anniversary 💐</div>
+    </div>
+    </section>
+
+     <div class="bottom-nav">
+            <a href="index.html"></a>
+            <a href="gallery.html"></a>
+            <a href="story.html"></a>
+            <a href="family.html"></a>
+            <a href="wishes.html"></a>
+    </div>
+    
+    <script src="/script/script.js"></script>  
+    
+</body>
+</html>
